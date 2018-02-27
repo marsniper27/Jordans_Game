@@ -30,10 +30,7 @@ namespace Jordans_Game
             //ceate pieces
             Piece P1A = new Piece(Archer,110,30);
             pieces.Add(P1A);
-
-            //Label lbl = new Label();
-            //lbl.Text = "Loaded";
-            //BoardPanel.Controls.Add(lbl);
+            
             BoardPanel.Show();
         }
 
